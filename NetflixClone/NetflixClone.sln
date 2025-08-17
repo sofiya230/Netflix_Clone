@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixClone", "NetflixClone\NetflixClone.csproj", "{68543ADF-77D1-4D34-881D-33C85A9BE5CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68543ADF-77D1-4D34-881D-33C85A9BE5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68543ADF-77D1-4D34-881D-33C85A9BE5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68543ADF-77D1-4D34-881D-33C85A9BE5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68543ADF-77D1-4D34-881D-33C85A9BE5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {154D2118-2FF9-444B-8709-A2A37A689D66}
+	EndGlobalSection
+EndGlobal
