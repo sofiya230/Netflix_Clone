@@ -102,11 +102,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors("AllowFrontend");
+if (app.Environment.IsDevelopment()){
+    app.UseCors("AllowFrontend");
+}
 
+app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseStaticFiles();
 
 app.MapControllers();
+app.MapFallbackToFile("index.html");
+
 
 app.Run();
